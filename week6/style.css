@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 138, 138);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 20px;
+}
+.contain {
+    display: inline-flex;
+    gap: 80px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+/*กล่อง*/
+.card {
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*รูปภาพ*/
+.card img {
+    width: 280px;
+    height: 260px;
+}
+
+/*ชื่อไก่*/
+.contain h2 {
+    font-size: 20px;
+    color: red;
+    width: 280px;
+    text-decoration: none;
+}
+
+/*อธิบาย*/
+.contain h4 {
+    font-size: 16px;
+    color: black;
+    width: 280px;
+}
