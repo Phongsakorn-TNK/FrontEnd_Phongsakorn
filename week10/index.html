@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>แบบฟอร์มสมัครงาน</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="form-contain">
+            <h1>แบบฟอร์มสมัครงาน</h1>
+                <form action="showform.php" method="get">
+                    <label>ชื่อ-นามสกุล</label>
+                    <input type="text" name="name" placeholder="กรอกชื่อ-นามสกุล" required>
+                    <div class="gender">
+                        <label>เลือกเพศ</label>
+                        <input type="radio" name="sex" value="ชาย">เพศชาย 
+                        <input type="radio" name="sex" value="หญิง">เพศหญิง
+                        <input type="radio" name="sex" value="เพศทางเลือก">เพศทางเลือก
+                    </div>
+                    <div class="lang">
+                        <label>ภาษาโปรแกรมที่ถนัด</label>
+                        <input type="checkbox" name="program[]" value="Python">Python
+                        <input type="checkbox" name="program[]" value="C">C++
+                        <input type="checkbox" name="program[]" value="Java">Java
+                        <input type="checkbox" name="program[]" value="HTML CSS">HTML CSS
+                    </div>
+                    <label>อีเมล</label>
+                    <input type="text" name="email" placeholder="กรอกอีเมล" required>
+                    <label>เบอร์โทรศัพท์</label>
+                    <input type="text" name="telephone" placeholder="กรอกเบอร์โทรศัพท์" required>
+                    <label>ตำแหน่งที่ต้องการสม้คร</label>
+                    <select name="position" required>
+                        <option value="">--เลือกตำแหน่ง--</option>
+                        <option value="Programer">โปรแกรมเมอร์</option>
+                        <option value="graphic">กราฟิก</option>
+                    </select>
+                    <label>อัพโหลดเรซูเม</label>
+                    <input type="file" name="resume">
+                    <label>ข้อความเพิ่มเติม</label>
+                    <textarea name="moreinfo" placeholder="กรอกข้อความเพิ่มเติม"></textarea>
+                    <div class="submit">
+                        <button type="submit">ส่งใบสมัคร</button>
+                    </div>
+                </form>
+        </div>
+    </body>
+</html>
