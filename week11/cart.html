@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PhetsrZeed Shop</title>
+  <link rel="stylesheet" href="styleCart.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <a href="menu_log.html"><h1>PhetsrZeed Shop</h1></a>
+    </div>
+    <div class="header-center">
+      <input type="text" placeholder="search" class="search-bar">
+      <button class="search-button">
+        <img src="/img3/search.png">
+      </button>
+      <a href="#"><img src="/img3/Don.jpg"></a>
+      <a href="cart.html"><img src="/img3/shopping-cart.png"></a>
+    </div>
+    <div class="header-right">
+      <a href="menu_nolog.html"><img src="/img3/logout.png"></a>
+    </div>
+  </header>
+    <div class="cart-container">
+        <div class="cart-details">
+            <div class="cart-header">
+                <h2>Product</h2>
+                <h2>Amount</h2>
+                <h2>Price</h2>
+            </div>
+            <div class="cart-item">
+                <div class="product-info">
+                    <div class="product-image">
+                        <img src="/img3/1050.png">
+                    </div>
+                    <p>MSI GTX 1050 6G</p>
+                </div>
+                <p>x1</p>
+                <p>5,600 ฿</p>
+            </div>
+        </div>
+        <div class="cart-summary">
+            <h2>Total</h2>
+            <div class="total-sec">
+                <div class="total-row">
+                    <p>Total Price</p>
+                    <p>5,600 ฿</p>
+                </div>
+                <div class="total-row">
+                    <p>Shipping</p>
+                    <p>100 ฿</p>
+                </div>
+                <div class="total-row total-final">
+                    <p>Total</p>
+                    <p>5,700 ฿</p>
+                </div>
+            </div>
+            <h2>Choose payment method</h2>
+            <form class="payment-method">
+                <label>
+                    <input type="radio" name="payment" checked> Promptpay
+                    <img src="/img3/PP.png" class="payment-icon">
+                </label>
+                <label>
+                    <input type="radio" name="payment"> Credit Card
+                    <img src="/img3/card.png" class="payment-icon">
+                </label>
+                <label>
+                    <input type="radio" name="payment"> Bank
+                    <img src="/img3/KrungThai.png" class="payment-icon">
+                </label>
+                <label>
+                    <input type="radio" name="payment"> Cash on delivery
+                    <img src="/img3/cash-on-delivery.png" class="payment-icon">
+                </label>
+            </form>
+            <div class="button-contain">
+                <a href="payment.html"><button class="buy-button">Buy</button></a>
+            </div>
+        </div>
+    </div>
