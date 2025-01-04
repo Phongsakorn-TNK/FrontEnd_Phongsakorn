@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87ceeb;
+    padding: 1px 20px;
+    font-size: 20px;
+  }
+  
+  .header a {
+    text-decoration: none;
+  }
+
+  .header h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+
+
+/* ส่วนเนื้อหา */
+  .main-contain {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .payment-container {
+    background-color: #82b5dc;
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 50%;
+    height: 420px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.payment-header {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.payment-form input, 
+.payment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.payment-form textarea {
+    height: 80px;
+    resize: none;
+}
+
+.next {
+    justify-content: end;
+    display: flex;
+}
+
+.next-button {
+    padding: 10px 35px;
+    background-color: #ffffff;
+    color: #82b5dc;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #cce6f5;
+}
+
+/* QR CODE */
+.qr img {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.qr h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.qr a {
+    text-decoration: none;
+    color: #82b5dc;
+}
